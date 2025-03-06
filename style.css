@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: "Giest Mono", "Giest";
+    background: #000;
+    color: white;
+    padding-top: 80px; 
+}
+.navbar {
+    position: fixed;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%; 
+    max-width: 1500px; 
+    background: #000000; 
+    backdrop-filter: blur(10px); 
+    border-radius: 15px; 
+    border: 0.5px solid rgba(3, 1, 1, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; 
+}
+.logo-video{
+    width: 40px;
+}
+.svg-logo-text{
+    margin-bottom: 10px;
+    width: 80px;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links li a {
+    text-transform: uppercase;
+    padding: 18px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.sign-in-btn{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 13px;
+    border: 1px solid rgb(147 147 147 / 20%);
+    border-radius: 4px;
+}
+.download-btn{
+    background-color: #fff;
+    color: #000;
+    padding: 6px 10px;
+    border: 2px solid rgba(143, 141, 141, 0.2);
+}
+
+.page1 {
+    /* max-width: 1000px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.hero-background {
+    width: 90vw;
+    border-radius: 15px;
+    display: block;
+}
+
+
+
+.hero-content {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+.h1-text {
+    top: 10%;
+    font-size: 140px;
+    line-height: clamp(4.563rem, 3.0289rem + 5.1136vw, 7.938rem) !important;
+    /* width: 100%; */
+    margin-bottom: 20px;
+    letter-spacing: -.04em;
+    white-space: nowrap;
+}
+
+
+.p-text {
+    /* font-size: 28px; */
+    color: #ddd;
+    margin-bottom: 20px;
+    font-family: "Giest";
+    font-size: 1.375rem;
+    line-height: 1.6875rem;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buttons button {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.buttons button:hover {
+    background: #45a049;
+    transform: scale(1.05);
+}
+
+
+.foreground-img {
+    transform: translate(8px, 29px);
+    width: 1000px;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+
+.shopify-svg{
+    fill: #fff;
+    color: #fff;
+}
